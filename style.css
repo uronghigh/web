@@ -1,1 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap");
 @import "reset.css";
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+p {
+  font-size: 10px;
+  font-weight: 300;
+}
