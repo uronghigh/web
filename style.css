@@ -33,10 +33,14 @@ p {
   width: 70%;
   max-width: 500px;
   margin-bottom: 2%;
-  background-color: #fefefd;
 }
 
 .ascii {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.img_greet,
+.img_ascii {
+  background-color: #fefefd;
 }
