@@ -53,3 +53,8 @@ p {
 .main_li {
   margin-bottom: 1.2%;
 }
+
+.menu_bem {
+  color: blue;
+  padding-top: 3px;
+}
