@@ -49,3 +49,7 @@ p {
 .ascii_text {
   font-size: 1.5em;
 }
+
+.main_li {
+  margin-bottom: 1.2%;
+}
