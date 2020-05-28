@@ -44,3 +44,7 @@ p {
 .img_ascii {
   background-color: #fefefd;
 }
+
+.ascii_text {
+  font-size: 1.5em;
+}
