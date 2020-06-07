@@ -58,3 +58,24 @@ p {
   color: blue;
   padding-top: 3px;
 }
+.text {
+  display: block;
+}
+
+.images {
+  display: none;
+}
+
+.img_size {
+  min-width: 30%;
+  max-width: 350px;
+}
+
+#img,
+#cmt,
+#img2,
+#cmt2,
+#img3,
+#cmt3 {
+  display: none;
+}

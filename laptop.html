@@ -12,7 +12,7 @@
     </a>
     <div class="ascii">
       <p>‹블루라이트가 나오고 있는 노트북 시리즈›</p>
-      <pre>
+      <pre id="txt">
                                                                         
                                                                                            
         ⎛¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯'⎞         
@@ -34,10 +34,13 @@
                      \ _________________________________________|
                      
       </pre>
+      <column class="images" id="img">
+        <img src="./images/laptop1.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 프로그래밍 언어를 공부하는 사람의 노트북</p>
     </div>
     <div class="ascii">
-      <pre>
+      <pre id="txt2">
                                                                                      
        ⎛¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯'⎞                   O
         ||¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯'||
@@ -58,10 +61,13 @@
              \ _________________________________________|
              
       </pre>
+      <column class="images" id="img2">
+        <img src="./images/laptop2.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 포토샵 작업중인 노트북</p>
     </div>
     <div class="ascii">
-      <pre>
+      <pre id="txt3">
                                                                         
                                                                                            
         ⎛¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯⎞                        ...
@@ -82,7 +88,18 @@
                      \ _________________________________________|
                      
       </pre>
+      <column class="images" id="img3">
+        <img src="./images/laptop3.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 만화보는 사람의 노트북</p>
     </div>
+    <button class="change_mode" id="cmp" onclick="change_to_pic3()">
+      사진으로 보기
+    </button>
+    <button class="change_mode" id="cmt" onclick="change_to_txt3()">
+      아스키코드로 돌아가기
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>

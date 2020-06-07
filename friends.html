@@ -11,19 +11,36 @@
       <p>⭀ BACK</p>
     </a>
     <div class="ascii">
-      <p class="ascii_text">⨽(⪽_⪾)⨼</p>
+      <p class="ascii_text" id="txt">⨽(⪽_⪾)⨼</p>
       <br />
+      <column class="images" id="img">
+        <img src="./images/friends.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 나</p>
     </div>
     <div class="ascii">
-      <p class="ascii_text">⊱(⊝.⊝)⊰</p>
+      <p class="ascii_text" id="txt2">⊱(⊝.⊝)⊰</p>
       <br />
+      <column class="images" id="img2">
+        <img src="./images/friends2.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 다자이유상무</p>
     </div>
     <div class="ascii">
-      <p class="ascii_text">(-,.-)//</p>
+      <p class="ascii_text" id="txt3">(-,.-)//</p>
       <br />
+      <column class="images" id="img3">
+        <img src="./images/friends3.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 띠로리</p>
     </div>
+    <button class="change_mode" id="cmp" onclick="change_to_pic3()">
+      사진으로 보기
+    </button>
+    <button class="change_mode" id="cmt" onclick="change_to_txt3()">
+      아스키코드로 돌아가기
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>

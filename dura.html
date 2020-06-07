@@ -11,7 +11,7 @@
       <p>⭀ BACK</p>
     </a>
     <div class="ascii">
-      <pre>
+      <pre id="txt">
            
 				
 
@@ -29,7 +29,19 @@
 
 
       </pre>
+      <column class="images" id="img">
+        <img src="./images/cup.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 카페가면 많이 보는 듀라렉스 유리컵</p>
     </div>
+
+    <button class="change_mode" id="cmp" onclick="change_to_pic()">
+      사진으로 보기
+    </button>
+    <button class="change_mode" id="cmt" onclick="change_to_txt()">
+      아스키코드로 돌아가기
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>

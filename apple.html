@@ -11,7 +11,7 @@
       <p>⭀ BACK</p>
     </a>
     <div class="ascii">
-      <pre>
+      <pre id="txt">
     _______________________________________________________________________________
 
 
@@ -35,7 +35,19 @@
     _______________________________________________________________________________
 
       </pre>
+      <column class="images" id="img">
+        <img src="./images/apple.png" alt="picture" class="img_size" />
+      </column>
       <p>➲ 향수병과 사과</p>
     </div>
+
+    <button class="change_mode" id="cmp" onclick="change_to_pic()">
+      사진으로 보기
+    </button>
+    <button class="change_mode" id="cmt" onclick="change_to_txt()">
+      아스키코드로 돌아가기
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>
