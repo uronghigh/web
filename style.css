@@ -71,11 +71,9 @@ p {
   max-width: 350px;
 }
 
-#img,
 #cmt,
+#img,
 #img2,
-#cmt2,
-#img3,
-#cmt3 {
+#img3 {
   display: none;
 }
